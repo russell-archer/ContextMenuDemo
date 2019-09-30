@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ConextMenuDemo.xcodeproj">
+      location = "self:ContextMenuDemo.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ConextMenuDemo
+//  ContextMenuDemo
 //
 //  Created by Russell Archer on 15/09/2019.
 //  Copyright © 2019 Russell Archer. All rights reserved.
@@ -34,4 +34,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

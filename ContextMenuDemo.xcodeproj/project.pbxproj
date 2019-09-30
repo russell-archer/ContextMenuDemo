@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6804A1EA2342892400A1CC99 /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6804A1E82342892400A1CC99 /* img2.jpg */; };
+		6804A1EB2342892400A1CC99 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6804A1E92342892400A1CC99 /* img1.jpg */; };
 		68163924232EB7A8001F9534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68163923232EB7A8001F9534 /* AppDelegate.swift */; };
 		68163926232EB7A8001F9534 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68163925232EB7A8001F9534 /* SceneDelegate.swift */; };
 		68163928232EB7A8001F9534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68163927232EB7A8001F9534 /* ViewController.swift */; };
@@ -16,7 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		68163920232EB7A8001F9534 /* ConextMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConextMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6804A1E6234287A200A1CC99 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6804A1E82342892400A1CC99 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		6804A1E92342892400A1CC99 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		68163920232EB7A8001F9534 /* ContextMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContextMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68163923232EB7A8001F9534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68163925232EB7A8001F9534 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		68163927232EB7A8001F9534 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,10 +42,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6804A1E7234287A700A1CC99 /* readme-assets */ = {
+			isa = PBXGroup;
+			children = (
+				6804A1E92342892400A1CC99 /* img1.jpg */,
+				6804A1E82342892400A1CC99 /* img2.jpg */,
+			);
+			path = "readme-assets";
+			sourceTree = "<group>";
+		};
 		68163917232EB7A8001F9534 = {
 			isa = PBXGroup;
 			children = (
-				68163922232EB7A8001F9534 /* ConextMenuDemo */,
+				6804A1E7234287A700A1CC99 /* readme-assets */,
+				6804A1E6234287A200A1CC99 /* README.md */,
+				68163922232EB7A8001F9534 /* ContextMenuDemo */,
 				68163921232EB7A8001F9534 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +64,12 @@
 		68163921232EB7A8001F9534 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68163920232EB7A8001F9534 /* ConextMenuDemo.app */,
+				68163920232EB7A8001F9534 /* ContextMenuDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		68163922232EB7A8001F9534 /* ConextMenuDemo */ = {
+		68163922232EB7A8001F9534 /* ContextMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
 				68163923232EB7A8001F9534 /* AppDelegate.swift */,
@@ -64,15 +80,15 @@
 				6816392E232EB7A9001F9534 /* LaunchScreen.storyboard */,
 				68163931232EB7A9001F9534 /* Info.plist */,
 			);
-			path = ConextMenuDemo;
+			path = ContextMenuDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6816391F232EB7A8001F9534 /* ConextMenuDemo */ = {
+		6816391F232EB7A8001F9534 /* ContextMenuDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68163934232EB7A9001F9534 /* Build configuration list for PBXNativeTarget "ConextMenuDemo" */;
+			buildConfigurationList = 68163934232EB7A9001F9534 /* Build configuration list for PBXNativeTarget "ContextMenuDemo" */;
 			buildPhases = (
 				6816391C232EB7A8001F9534 /* Sources */,
 				6816391D232EB7A8001F9534 /* Frameworks */,
@@ -82,9 +98,9 @@
 			);
 			dependencies = (
 			);
-			name = ConextMenuDemo;
-			productName = ConextMenuDemo;
-			productReference = 68163920232EB7A8001F9534 /* ConextMenuDemo.app */;
+			name = ContextMenuDemo;
+			productName = ContextMenuDemo;
+			productReference = 68163920232EB7A8001F9534 /* ContextMenuDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6816391B232EB7A8001F9534 /* Build configuration list for PBXProject "ConextMenuDemo" */;
+			buildConfigurationList = 6816391B232EB7A8001F9534 /* Build configuration list for PBXProject "ContextMenuDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6816391F232EB7A8001F9534 /* ConextMenuDemo */,
+				6816391F232EB7A8001F9534 /* ContextMenuDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -126,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				68163930232EB7A9001F9534 /* LaunchScreen.storyboard in Resources */,
+				6804A1EB2342892400A1CC99 /* img1.jpg in Resources */,
 				6816392D232EB7A9001F9534 /* Assets.xcassets in Resources */,
+				6804A1EA2342892400A1CC99 /* img2.jpg in Resources */,
 				6816392B232EB7A8001F9534 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,12 +304,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R6BE99W3FU;
-				INFOPLIST_FILE = ConextMenuDemo/Info.plist;
+				INFOPLIST_FILE = ContextMenuDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rarcher.ConextMenuDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rarcher.ContextMenuDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,12 +322,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R6BE99W3FU;
-				INFOPLIST_FILE = ConextMenuDemo/Info.plist;
+				INFOPLIST_FILE = ContextMenuDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rarcher.ConextMenuDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rarcher.ContextMenuDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6816391B232EB7A8001F9534 /* Build configuration list for PBXProject "ConextMenuDemo" */ = {
+		6816391B232EB7A8001F9534 /* Build configuration list for PBXProject "ContextMenuDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68163932232EB7A9001F9534 /* Debug */,
@@ -328,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68163934232EB7A9001F9534 /* Build configuration list for PBXNativeTarget "ConextMenuDemo" */ = {
+		68163934232EB7A9001F9534 /* Build configuration list for PBXNativeTarget "ContextMenuDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68163935232EB7A9001F9534 /* Debug */,
